@@ -1,0 +1,218 @@
+body{
+
+	background-color: #f7f9f9;
+}
+
+#logo{
+	background: url('../img/matthewleak-logo.png') no-repeat;
+	height: 0;
+	width: 0;
+	padding: 110px 0 0 110px;
+	display: block;
+	overflow: hidden;
+	margin: 30px auto;
+}
+
+h2{
+	color: #282829;
+	font-family: Times New Roman, serif;
+	font-size: 13px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	line-height: 21px;
+	margin: 30px 15px;
+	text-align: center;
+	text-shadow: 1px 1px 0px #fff;
+	text-transform: uppercase;
+}
+
+/* #home */
+
+#home ul.links{
+	margin: 0 15px 30px 15px;
+}
+
+#home ul.links li{
+	background: url('../img/arrow.png') right center no-repeat;
+	border-bottom: 1px dotted #bababa;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	list-style: none;
+	text-transform: uppercase;
+	width: 100%;
+	padding: 20px 0 20px 0;
+}
+
+#home ul.links li a{
+	
+	color: #282829;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 100px 0 0;
+}
+
+/* #about */
+
+#about .toolbar a{
+	background: black;
+	color: white;
+	display: block;	
+	font-family: Times New Roman, Serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 10px;
+}
+
+#about ul,p{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #282829;
+	line-height: 23px;
+	margin: 15px;
+}
+
+#about li{
+	list-style: none;
+}
+
+#about h3{
+	color: #282829;
+	font-family: Times New Roman, serif;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 30px 15px 0 15px;
+	text-shadow: 1px 1px 0px #fff;
+	border-bottom: 1px dotted #282829;
+	padding: 0 0 5px 0;
+	display: block;
+	text-transform: uppercase;
+}
+
+/* #portfolio */
+
+#portfolio .toolbar a{
+	background: black;
+	color: white;
+	display: block;	
+	font-family: Times New Roman, Serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 10px;
+}
+
+#portfolio ul.entries,p{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #282829;
+	line-height: 23px;
+	margin: 15px;
+}
+
+#portfolio ul.entries li{
+	list-style: none;
+}
+
+#portfolio h3{
+	color: #282829;
+	font-family: Times New Roman, serif;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 30px 15px 0 15px;
+	text-shadow: 1px 1px 0px #fff;
+	border-bottom: 1px dotted #282829;
+	padding: 0 0 5px 0;
+	display: block;
+	text-transform: uppercase;
+}
+
+/* #contact */
+
+#contact .toolbar a{
+	background: black;
+	color: white;
+	display: block;	
+	font-family: Times New Roman, Serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 10px;
+}
+
+#contact ul.contactme,p{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #282829;
+	line-height: 23px;
+	margin: 15px;
+}
+
+#contact a{
+	color: #282829;
+	text-decoration: none;
+	padding: 0 0 10px 0;
+	border-bottom: 1px dotted #bababa;
+	display: block;
+	font-family: times new roman, serif;
+	font-size: 16px;
+}
+
+#contact ul.contactme li{
+	list-style: none;
+	padding: 0 0 10px 0;
+	
+}
+
+#contact h3{
+	color: #282829;
+	font-family: Times New Roman, serif;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 30px 15px 0 15px;
+	text-shadow: 1px 1px 0px #fff;
+	border-bottom: 1px dotted #282829;
+	padding: 0 0 5px 0;
+	display: block;
+	text-transform: uppercase;
+}
+
+.in, .out {
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-duration: 350ms;
+}
+
+.slide.in {
+	-webkit-animation-name: slideinfromright;
+}
+
+.slide.out {
+	-webkit-animation-name: slideouttoleft;
+}
+
+.slide.in.reverse {
+	-webkit-animation-name: slideinfromleft;
+}
+
+.slide.out.reverse {
+	-webkit-animation-name: slideouttoright;
+}
+
+@-webkit-keyframes slideinfromright {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(0); }
+}
+
+@-webkit-keyframes slideouttoleft {
+    from { -webkit-transform: translateX(0); }
+    to { -webkit-transform: translateX(-100%); }
+}
+
+
